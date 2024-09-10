@@ -1,0 +1,36 @@
+.main{
+background-color: aqua;
+}
+
+
+.card{
+    box-shadow: 2px;
+    text-align: center;
+    max-width: 350px;
+    min-width: 350px;
+}
+.d-flex{
+    flex-wrap: right;
+}
+.tag{
+    padding: 0 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    margin: 2px 1px;
+    text-align: flex;
+}
+
+h3{
+    padding: 4px;
+    text-align: center;
+}
+.tag:hover{
+    text-align:right;
+}
+
+

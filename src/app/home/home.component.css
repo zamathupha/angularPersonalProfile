@@ -1,0 +1,17 @@
+.body{
+   position: absolute;
+   width: 70%;
+   left: 15%;
+   top: 205;
+   background-color: aqua; 
+   background: cover;
+   padding: 30px;
+    
+}
+
+.img{
+    float: right;
+    border-radius: 50%;
+    width: 400px; 
+    
+}
