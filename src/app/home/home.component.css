@@ -1,17 +1,32 @@
-.body{
-   position: absolute;
-   width: 70%;
-   left: 15%;
-   top: 205;
-   background-color: aqua; 
-   background: cover;
-   padding: 30px;
-    
-}
-
-.img{
-    float: right;
+.body {
+    text-align: center;
+    padding: 100px;
+    background-color: #ADD8E6;
+  }
+  
+  .img {
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    width: 400px; 
-    
-}
+  margin-right: 5000;
+  }
+  
+  h1 {
+    color: #0f0e0e;
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
+  p {
+    color: #0c0b0b;
+    font-size: 1.2rem;
+  }
+  
+ 
+  
+  
+
+  
+  
+  
+  

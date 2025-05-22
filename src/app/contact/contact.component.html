@@ -1,29 +1,38 @@
-<section class="contact">
+<section class="contact" id="contact">
     <div class="containter">
-        <h2>Contact Details</h2>
+        <h1>Contact Details</h1>
         <div class="contact-wrapper">
             <diV class="contact-form">
                 <h3>Send Me a message</h3>
-                <form>
-                    <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name"> 
-                 </div>
+    
+                <form action="https://formspree.io/f/mayradaj" method="POST">
+    <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+    </div>
 
-                 <div class="form-group">
-                    <input type="email" name="email" placeholder="Your Email"> 
-                 </div>
+    <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+    </div>
 
-                 <div class="form-group">
-                    <textarea name="message" placeholder="Your message"></textarea>
-                 </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Your message" required></textarea>
+    </div>
 
-                 <button type="submit">Send Message</button>
-                </form>
+    <button type="submit">Send Message</button>
+    <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+</form>
+
+
             </diV>
             <div class="contact-info">
                 <h3>Contact Information</h3>
-                <p>082 408 2422</p>
-                <p>zamathupha+gmail.com</p>
+                <p> Name Zama Thupha</p>
+                <p>Phone 082 408 2422</p>
+
+                <p><a href="mailto:zamathupha@gmail.com">Email</a></p>
+                <p><a href="https://www.linkedin.com/in/zama-thupha-b0681149" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+
                 <p>Johannesburg, Gauteng, South Africa</p>
 
             </div>

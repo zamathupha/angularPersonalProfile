@@ -10,7 +10,7 @@ import { NavComponent } from "./nav/nav.component";
   standalone: true,
   imports: [RouterOutlet, HearderComponent, NavComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'] 
 })
 export class AppComponent {
   title = 'AngulerPortfolioWebside';

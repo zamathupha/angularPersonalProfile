@@ -4,9 +4,12 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+h1{
+    margin: 50px;
+}
 .contact{
     min-height: 100vh;
-    background-color: #e8f0fe;
+    background-color:#ADD8E6;
     padding: 50px;
     text-align: center;
 }
